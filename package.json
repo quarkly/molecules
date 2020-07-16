@@ -1,0 +1,83 @@
+{
+  "name": "@quarkly/elements",
+  "description": "atomic react UI components",
+  "author": "Eddort",
+  "user": "Eddort",
+  "version": "0.5.7",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build": "npm run clean && npm run build:cjs && npm run build:esm",
+    "clean": "rm -rf build && mkdir build",
+    "build:cjs": "NODE_ENV=cjs babel src --out-dir build/cjs --ignore src/**/*.stories.js,src/**/*.test.js,src/storyModules ",
+    "build:esm": "NODE_ENV=esm babel src --out-dir build/esm --ignore src/**/*.stories.js,src/**/*.test.js,src/storyModules ",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:lint": "eslint . --ignore-path .gitignore"
+  },
+  "main": "build/cjs",
+  "module": "build/esm",
+  "peerDependencies": {
+    "styled-components": "4.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-export-default-from": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@storybook/addon-knobs": "latest",
+    "@storybook/addon-storyshots": "latest",
+    "@storybook/react": "latest",
+    "@storybook/theming": "^5.3.19",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "chai": "^4.1.2",
+    "core-js": "^3.6.5",
+    "cross-env": "^7.0.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.1.0",
+    "prettier": "2.0.5",
+    "prop-types": "^15.7.2",
+    "react-icons": "^3.10.0",
+    "styled-components": "5.1.1"
+  },
+  "keywords": [
+    "react",
+    "quarkly",
+    "styled-components",
+    "atomic-components",
+    "quarkly/elementary"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quarkly/elements"
+  },
+  "bugs": {
+    "url": "https://github.com/quarkly/elements/issues"
+  },
+  "homepage": "https://github.com/quarkly/elements#readme",
+  "pre-push": [
+    "test"
+  ],
+  "dependencies": {
+    "@quarkly/atomize": "^1.0.5",
+    "@quarkly/theme": "^0.1.3"
+  }
+}
