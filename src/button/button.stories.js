@@ -3,26 +3,33 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
 
 import Theme from '@quarkly/theme';
-import getDefaultKnobs from '../modules/knobs';
-import defaults from './defaults';
+import getKnobs from './knobs';
 import Button from './index';
 
 const stories = storiesOf('Button', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('default', () => (
+stories.add('submit', () => (
 	<Theme>
-		<Button>
-			{ text('Label', 'Default') }
+		<Button { ...getKnobs() }>
+			{ text('Label', 'Submit') }
 		</Button>
 	</Theme>
 ));
 
-stories.add('with props', () => (
+stories.add('button', () => (
 	<Theme>
-		<Button { ...getDefaultKnobs(defaults) }>
-			{ text('Label', 'With Props') }
+		<Button { ...getKnobs({ type: 'button' }) }>
+			{ text('Label', 'Button') }
+		</Button>
+	</Theme>
+));
+
+stories.add('disabled', () => (
+	<Theme>
+		<Button { ...getKnobs({ disabled: true }) }>
+			{ text('Label', 'Disabled') }
 		</Button>
 	</Theme>
 ));

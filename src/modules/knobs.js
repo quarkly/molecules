@@ -1,6 +1,6 @@
 import { text, color, select, number } from '@storybook/addon-knobs';
 
-export default defaults => ({
+export default (defaults = {}) => ({
 
 	// Layout
 
