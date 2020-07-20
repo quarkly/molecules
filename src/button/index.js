@@ -20,11 +20,13 @@ export default atomize.button(
 		propInfo: {
 			type: {
 				control: 'select',
+				type: 'string',
 				variants: ['submit', 'button'],
 				category: 'Main',
 			},
 			disabled: {
 				control: 'checkbox',
+				type: 'boolean',
 				category: 'Main',
 			},
 		},

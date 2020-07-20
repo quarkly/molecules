@@ -19,6 +19,7 @@ export default atomize.img(
 		propInfo: {
 			src: {
 				control: 'image',
+				type: 'string',
 				description: {
 					en: 'src — image address',
 					ru: 'src — aдрес изображения'
@@ -28,11 +29,13 @@ export default atomize.img(
 			},
 			alt: {
 				control: 'input',
+				type: 'string',
 				category: 'Main',
 				weight: 1
 			},
 			title: {
 				control: 'input',
+				type: 'string',
 				category: 'Main',
 				weight: 1
 			}
