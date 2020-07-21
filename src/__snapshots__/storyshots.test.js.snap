@@ -2,6 +2,19 @@
 
 exports[`Storyshots Box default 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -51,21 +64,39 @@ exports[`Storyshots Box default 1`] = `
 
 <div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  transform="none"
-  width=""
+  color="#000000"
 >
-  Default box
+  <div
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Default box
+  </div>
 </div>
 `;
 
 exports[`Storyshots Box footer 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -113,23 +144,41 @@ exports[`Storyshots Box footer 1`] = `
   filter: none;
 }
 
-<footer
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  transform="none"
-  width=""
+  color="#000000"
 >
-  Footer container
-</footer>
+  <footer
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Footer container
+  </footer>
+</div>
 `;
 
 exports[`Storyshots Box header 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -177,23 +226,41 @@ exports[`Storyshots Box header 1`] = `
   filter: none;
 }
 
-<header
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  transform="none"
-  width=""
+  color="#000000"
 >
-  Header container
-</header>
+  <header
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Header container
+  </header>
+</div>
 `;
 
 exports[`Storyshots Box section 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -241,23 +308,41 @@ exports[`Storyshots Box section 1`] = `
   filter: none;
 }
 
-<section
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  transform="none"
-  width=""
+  color="#000000"
 >
-  Section container
-</section>
+  <section
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Section container
+  </section>
+</div>
 `;
 
 exports[`Storyshots Button button 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -321,36 +406,54 @@ exports[`Storyshots Button button 1`] = `
   filter: none;
 }
 
-.c0:disabled,
-.c0[data-quarkly-state="disabled"] {
+.c1:disabled,
+.c1[data-quarkly-state="disabled"] {
   background: var(--qtheme-color-grey);
 }
 
-.c0:focus,
-.c0[data-quarkly-state="focus"] {
+.c1:focus,
+.c1[data-quarkly-state="focus"] {
   box-shadow: 0 0 0 2px var(--qtheme-color-primary);
 }
 
-<button
+<div
   className="c0"
-  color="--color-light"
-  cursor="pointer"
-  disabled={false}
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  overflow="visible"
-  transform="none"
-  type="button"
-  width=""
+  color="#000000"
 >
-  Button
-</button>
+  <button
+    className="c1"
+    color="--color-light"
+    cursor="pointer"
+    disabled={false}
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    overflow="visible"
+    transform="none"
+    type="button"
+    width=""
+  >
+    Button
+  </button>
+</div>
 `;
 
 exports[`Storyshots Button disabled 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -414,36 +517,54 @@ exports[`Storyshots Button disabled 1`] = `
   filter: none;
 }
 
-.c0:disabled,
-.c0[data-quarkly-state="disabled"] {
+.c1:disabled,
+.c1[data-quarkly-state="disabled"] {
   background: var(--qtheme-color-grey);
 }
 
-.c0:focus,
-.c0[data-quarkly-state="focus"] {
+.c1:focus,
+.c1[data-quarkly-state="focus"] {
   box-shadow: 0 0 0 2px var(--qtheme-color-primary);
 }
 
-<button
+<div
   className="c0"
-  color="--color-light"
-  cursor="pointer"
-  disabled={true}
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  overflow="visible"
-  transform="none"
-  type="submit"
-  width=""
+  color="#000000"
 >
-  Disabled
-</button>
+  <button
+    className="c1"
+    color="--color-light"
+    cursor="pointer"
+    disabled={true}
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    overflow="visible"
+    transform="none"
+    type="submit"
+    width=""
+  >
+    Disabled
+  </button>
+</div>
 `;
 
 exports[`Storyshots Button submit 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -507,36 +628,54 @@ exports[`Storyshots Button submit 1`] = `
   filter: none;
 }
 
-.c0:disabled,
-.c0[data-quarkly-state="disabled"] {
+.c1:disabled,
+.c1[data-quarkly-state="disabled"] {
   background: var(--qtheme-color-grey);
 }
 
-.c0:focus,
-.c0[data-quarkly-state="focus"] {
+.c1:focus,
+.c1[data-quarkly-state="focus"] {
   box-shadow: 0 0 0 2px var(--qtheme-color-primary);
 }
 
-<button
+<div
   className="c0"
-  color="--color-light"
-  cursor="pointer"
-  disabled={false}
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  overflow="visible"
-  transform="none"
-  type="submit"
-  width=""
+  color="#000000"
 >
-  Submit
-</button>
+  <button
+    className="c1"
+    color="--color-light"
+    cursor="pointer"
+    disabled={false}
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    overflow="visible"
+    transform="none"
+    type="submit"
+    width=""
+  >
+    Submit
+  </button>
+</div>
 `;
 
 exports[`Storyshots Hr default 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   margin-top: 16px;
   margin-bottom: 16px;
   padding-bottom: 4px;
@@ -585,21 +724,39 @@ exports[`Storyshots Hr default 1`] = `
   filter: none;
 }
 
-<hr
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="block"
-  filter="none"
-  height=""
-  opacity="1"
-  transform="none"
-  width=""
-/>
+  color="#000000"
+>
+  <hr
+    className="c1"
+    color=""
+    cursor="–"
+    display="block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  />
+</div>
 `;
 
 exports[`Storyshots Image default 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -648,24 +805,42 @@ exports[`Storyshots Image default 1`] = `
   filter: none;
 }
 
-<img
-  alt=""
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  src="https://uploads.quarkly.io/landing/quarkly-features-for-developers-hot-npm-import.png"
-  title=""
-  transform="none"
-  width=""
-/>
+  color="#000000"
+>
+  <img
+    alt=""
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    src="https://uploads.quarkly.io/landing/quarkly-features-for-developers-hot-npm-import.png"
+    title=""
+    transform="none"
+    width=""
+  />
+</div>
 `;
 
 exports[`Storyshots Image with alt & title 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -714,24 +889,42 @@ exports[`Storyshots Image with alt & title 1`] = `
   filter: none;
 }
 
-<img
-  alt="Transfer necessary element props of your components to the panel"
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  src="https://uploads.quarkly.io/landing/quarkly-features-for-developers-custom-props.png"
-  title="Transfer necessary element props of your components to the panel"
-  transform="none"
-  width=""
-/>
+  color="#000000"
+>
+  <img
+    alt="Transfer necessary element props of your components to the panel"
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    src="https://uploads.quarkly.io/landing/quarkly-features-for-developers-custom-props.png"
+    title="Transfer necessary element props of your components to the panel"
+    transform="none"
+    width=""
+  />
+</div>
 `;
 
 exports[`Storyshots List ol default 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -777,34 +970,52 @@ exports[`Storyshots List ol default 1`] = `
   filter: none;
 }
 
-<ol
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  transform="none"
-  width=""
+  color="#000000"
 >
-  <li>
-    Item 1
-  </li>
-  <li>
-    Item 2
-  </li>
-  <li>
-    Item 3
-  </li>
-  <li>
-    Item 4
-  </li>
-</ol>
+  <ol
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    <li>
+      Item 1
+    </li>
+    <li>
+      Item 2
+    </li>
+    <li>
+      Item 3
+    </li>
+    <li>
+      Item 4
+    </li>
+  </ol>
+</div>
 `;
 
 exports[`Storyshots List ol latin 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   list-style-type: lower-latin;
   display: inline-block;
   overflow-x: visible;
@@ -851,34 +1062,52 @@ exports[`Storyshots List ol latin 1`] = `
   filter: none;
 }
 
-<ol
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  transform="none"
-  width=""
+  color="#000000"
 >
-  <li>
-    Item 1
-  </li>
-  <li>
-    Item 2
-  </li>
-  <li>
-    Item 3
-  </li>
-  <li>
-    Item 4
-  </li>
-</ol>
+  <ol
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    <li>
+      Item 1
+    </li>
+    <li>
+      Item 2
+    </li>
+    <li>
+      Item 3
+    </li>
+    <li>
+      Item 4
+    </li>
+  </ol>
+</div>
 `;
 
 exports[`Storyshots List ul circle 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   list-style-type: circle;
   display: inline-block;
   overflow-x: visible;
@@ -925,34 +1154,52 @@ exports[`Storyshots List ul circle 1`] = `
   filter: none;
 }
 
-<ul
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  transform="none"
-  width=""
+  color="#000000"
 >
-  <li>
-    Item 1
-  </li>
-  <li>
-    Item 2
-  </li>
-  <li>
-    Item 3
-  </li>
-  <li>
-    Item 4
-  </li>
-</ul>
+  <ul
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    <li>
+      Item 1
+    </li>
+    <li>
+      Item 2
+    </li>
+    <li>
+      Item 3
+    </li>
+    <li>
+      Item 4
+    </li>
+  </ul>
+</div>
 `;
 
 exports[`Storyshots List ul default 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -998,34 +1245,52 @@ exports[`Storyshots List ul default 1`] = `
   filter: none;
 }
 
-<ul
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  transform="none"
-  width=""
+  color="#000000"
 >
-  <li>
-    Item 1
-  </li>
-  <li>
-    Item 2
-  </li>
-  <li>
-    Item 3
-  </li>
-  <li>
-    Item 4
-  </li>
-</ul>
+  <ul
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    <li>
+      Item 1
+    </li>
+    <li>
+      Item 2
+    </li>
+    <li>
+      Item 3
+    </li>
+    <li>
+      Item 4
+    </li>
+  </ul>
+</div>
 `;
 
 exports[`Storyshots Select default 1`] = `
 .c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -1071,36 +1336,41 @@ exports[`Storyshots Select default 1`] = `
   filter: none;
 }
 
-<select
+<div
   className="c0"
-  color=""
-  cursor="–"
-  display="inline-block"
-  filter="none"
-  height=""
-  opacity="1"
-  transform="none"
-  width=""
+  color="#000000"
 >
-  <option
-    value="option1"
+  <select
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
   >
-    Option 1
-  </option>
-  <option
-    value="option2"
-  >
-    Option 2
-  </option>
-  <option
-    value="option3"
-  >
-    Option 3
-  </option>
-  <option
-    value="option4"
-  >
-    Option 4
-  </option>
-</select>
+    <option
+      value="option1"
+    >
+      Option 1
+    </option>
+    <option
+      value="option2"
+    >
+      Option 2
+    </option>
+    <option
+      value="option3"
+    >
+      Option 3
+    </option>
+    <option
+      value="option4"
+    >
+      Option 4
+    </option>
+  </select>
+</div>
 `;
