@@ -15,6 +15,6 @@ export default atomize.div(
 		'font-family': 'sans-serif',
 
 		'user-select': 'none',
-		'position': 'relative'
-	}
+		'position': 'relative',
+	},
 );
