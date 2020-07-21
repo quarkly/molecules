@@ -1,19 +1,18 @@
+import { select } from '@storybook/addon-knobs';
 import defaults from './defaults';
 import getDefaultKnobs from '../modules/knobs';
 
-import { select } from '@storybook/addon-knobs';
-
 export default (props = {}) => ({
-    ...getDefaultKnobs(defaults),
+	...getDefaultKnobs(defaults),
 
-	as: select(
+	'as': select(
 		'as',
 		{
-			'ul': 'ul',
-			'ol': 'ol'
+			ul: 'ul',
+			ol: 'ol',
 		},
 		props.as || 'ul',
-		'Props'
+		'Props',
 	),
 	'list-style-type': select(
 		'list-style-type',
@@ -36,9 +35,9 @@ export default (props = {}) => ({
 			'none': 'none',
 			'inherit': 'inherit',
 			'initial': 'initial',
-			'unset': 'unset'
+			'unset': 'unset',
 		},
 		props['list-style-type'] || '',
-		'Props'
+		'Props',
 	),
 });

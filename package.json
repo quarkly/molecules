@@ -14,7 +14,8 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "test:lint": "eslint . --ignore-path .gitignore"
+	"test:lint": "eslint . --ignore-path .gitignore",
+	"test:lint:fix": "eslint .  --ignore-path .gitignore --fix"
   },
   "main": "build/cjs",
   "module": "build/esm",

@@ -12,18 +12,24 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
 	<Theme>
-		<Image { ...getKnobs({
-			src: 'https://uploads.quarkly.io/landing/quarkly-features-for-developers-hot-npm-import.png'
-		}) } />
+		<Image
+			{...getKnobs({
+				src:
+					'https://uploads.quarkly.io/landing/quarkly-features-for-developers-hot-npm-import.png',
+			})}
+		/>
 	</Theme>
 ));
 
 stories.add('with alt & title', () => (
 	<Theme>
-		<Image { ...getKnobs({
-			src: 'https://uploads.quarkly.io/landing/quarkly-features-for-developers-custom-props.png',
-			alt: 'Transfer necessary element props of your components to the panel',
-			title: 'Transfer necessary element props of your components to the panel'
-		}) } />
+		<Image
+			{...getKnobs({
+				src:
+					'https://uploads.quarkly.io/landing/quarkly-features-for-developers-custom-props.png',
+				alt: 'Transfer necessary element props of your components to the panel',
+				title: 'Transfer necessary element props of your components to the panel',
+			})}
+		/>
 	</Theme>
 ));

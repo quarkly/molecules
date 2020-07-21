@@ -12,24 +12,18 @@ stories.addDecorator(withKnobs);
 
 stories.add('submit', () => (
 	<Theme>
-		<Button { ...getKnobs() }>
-			{ text('Label', 'Submit') }
-		</Button>
+		<Button {...getKnobs()}>{text('Label', 'Submit')}</Button>
 	</Theme>
 ));
 
 stories.add('button', () => (
 	<Theme>
-		<Button { ...getKnobs({ type: 'button' }) }>
-			{ text('Label', 'Button') }
-		</Button>
+		<Button {...getKnobs({ type: 'button' })}>{text('Label', 'Button')}</Button>
 	</Theme>
 ));
 
 stories.add('disabled', () => (
 	<Theme>
-		<Button { ...getKnobs({ disabled: true }) }>
-			{ text('Label', 'Disabled') }
-		</Button>
+		<Button {...getKnobs({ disabled: true })}>{text('Label', 'Disabled')}</Button>
 	</Theme>
 ));

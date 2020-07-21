@@ -12,32 +12,24 @@ stories.addDecorator(withKnobs);
 
 stories.add('default', () => (
 	<Theme>
-		<Box { ...getKnobs() }>
-			{ text('Label', 'Default box') }
-		</Box>
+		<Box {...getKnobs()}>{text('Label', 'Default box')}</Box>
 	</Theme>
 ));
 
 stories.add('header', () => (
 	<Theme>
-		<Box { ...getKnobs({ as: 'header' }) }>
-			{ text('Label', 'Header container') }
-		</Box>
+		<Box {...getKnobs({ as: 'header' })}>{text('Label', 'Header container')}</Box>
 	</Theme>
 ));
 
 stories.add('section', () => (
 	<Theme>
-		<Box { ...getKnobs({ as: 'section' }) }>
-			{ text('Label', 'Section container') }
-		</Box>
+		<Box {...getKnobs({ as: 'section' })}>{text('Label', 'Section container')}</Box>
 	</Theme>
 ));
 
 stories.add('footer', () => (
 	<Theme>
-		<Box { ...getKnobs({ as: 'footer' }) }>
-			{ text('Label', 'Footer container') }
-		</Box>
+		<Box {...getKnobs({ as: 'footer' })}>{text('Label', 'Footer container')}</Box>
 	</Theme>
 ));

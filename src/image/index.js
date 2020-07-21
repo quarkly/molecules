@@ -6,15 +6,13 @@ export default atomize.img(
 	{
 		name: 'Image',
 		effects: {
-			hover: ':hover'
+			hover: ':hover',
 		},
 		normalize: true,
 		mixins: true,
 		description: {
-			en:
-				'Image element — image',
-			ru:
-				'Элемент image — изображение'
+			en: 'Image element — image',
+			ru: 'Элемент image — изображение',
 		},
 		propInfo: {
 			src: {
@@ -22,24 +20,24 @@ export default atomize.img(
 				type: 'string',
 				description: {
 					en: 'src — image address',
-					ru: 'src — aдрес изображения'
+					ru: 'src — aдрес изображения',
 				},
 				category: 'Main',
-				weight: 1
+				weight: 1,
 			},
 			alt: {
 				control: 'input',
 				type: 'string',
 				category: 'Main',
-				weight: 1
+				weight: 1,
 			},
 			title: {
 				control: 'input',
 				type: 'string',
 				category: 'Main',
-				weight: 1
-			}
-		}
+				weight: 1,
+			},
+		},
 	},
 	defaults,
 );

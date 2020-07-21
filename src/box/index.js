@@ -6,15 +6,14 @@ export default atomize.div(
 	{
 		name: 'Box',
 		effects: {
-			hover: ':hover'
+			hover: ':hover',
 		},
 		normalize: true,
 		mixins: true,
 		description: {
-			en:
-				'Box element — auxiliary container with arbitrary sizes for different tasks',
+			en: 'Box element — auxiliary container with arbitrary sizes for different tasks',
 			ru:
-				'Элемент box — вспомогательный контейнер с произвольными размерами для различных задач'
+				'Элемент box — вспомогательный контейнер с произвольными размерами для различных задач',
 		},
 		propInfo: {
 			as: {
@@ -33,10 +32,10 @@ export default atomize.div(
 					'hgroup',
 					'main',
 					'nav',
-					'section'
-				]
-			}
-		}
+					'section',
+				],
+			},
+		},
 	},
 	defaults,
 );
