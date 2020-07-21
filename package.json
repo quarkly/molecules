@@ -79,6 +79,7 @@
   "pre-push": [
     "test"
   ],
+  "pre-commit": "npm run test:lint",
   "dependencies": {
     "@quarkly/atomize": "^1.0.5",
     "@quarkly/theme": "^0.1.3"
