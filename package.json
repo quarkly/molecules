@@ -5,7 +5,8 @@
   "user": "Eddort",
   "version": "0.0.1",
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c .storybook",
+	"storybook": "start-storybook -p 9001 -c .storybook",
+	"build-storybook": "build-storybook -c .storybook -o .out",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
     "clean": "rm -rf build && mkdir build",
     "build:cjs": "NODE_ENV=cjs babel src --out-dir build/cjs --ignore src/**/*.stories.js,src/**/*.test.js,src/storyModules ",
