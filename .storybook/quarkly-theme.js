@@ -1,34 +1,34 @@
 import { create } from '@storybook/theming/create';
 
 export default create({
-	base: '#22262e',
+	base: '#191C22',
 
-	colorPrimary: '#248de0',
-	colorSecondary: '#003766',
+	colorPrimary: '#AFBED1',
+	colorSecondary: '#2C3139',
 
 	// UI
-	appBg: '#04080C',
-	appContentBg: '#22262e',
-	appBorderColor: 'grey',
-	appBorderRadius: 4,
+	appBg: '#22262E',
+	appContentBg: '#191C22',
+	appBorderColor: '#2C3139',
+	appBorderRadius: 0,
 
 	// Typography
 	fontBase: '"Open Sans", sans-serif',
 	fontCode: 'monospace',
 
 	// Text colors
-	textColor: '#F8FAFF',
-	textInverseColor: 'rgba(255,255,255,0.9)',
+	textColor: '#AFBED1',
+	textInverseColor: '#191C22',
 
 	// Toolbar default and active colors
-	barTextColor: 'silver',
-	barSelectedColor: '#248de0',
-	barBg: '#2c3139',
+	barTextColor: '#7A869A',
+	barSelectedColor: '#F8FAFF',
+	barBg: '#22262E',
 
 	// Form colors
-	inputBg: '#2c3139',
-	inputBorder: '#2c3139',
-	inputTextColor: '#2c3139',
+	inputBg: '#2C3139',
+	inputBorder: '#2C3139',
+	inputTextColor: '#F8FAFF',
 	inputBorderRadius: 4,
 
 	brandTitle: 'quarkly molecules',
