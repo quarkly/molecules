@@ -8,12 +8,10 @@ export default atomize.hr(
 		normalize: true,
 		mixins: true,
 		description: {
-			en:
-				'Hr element — horizontal line to separate content',
-			ru:
-				'Элемент hr — разделительная линия'
+			en: 'Hr element — horizontal line to separate content',
+			ru: 'Элемент hr — разделительная линия',
 		},
-		propInfo: {}
+		propInfo: {},
 	},
 	defaults,
 );

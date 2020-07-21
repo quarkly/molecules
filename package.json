@@ -6,6 +6,7 @@
   "version": "0.0.1",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook -c .storybook",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
     "clean": "rm -rf build && mkdir build",
     "build:cjs": "NODE_ENV=cjs babel src --out-dir build/cjs --ignore src/**/*.stories.js,src/**/*.test.js,src/storyModules ",
@@ -13,12 +14,13 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "test:lint": "eslint . --ignore-path .gitignore"
+	"test:lint": "eslint . --ignore-path .gitignore",
+	"test:lint:fix": "eslint .  --ignore-path .gitignore --fix"
   },
   "main": "build/cjs",
   "module": "build/esm",
   "peerDependencies": {
-    "styled-components": "4.2.0"
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -52,6 +54,7 @@
     "eslint-plugin-react": "^7.20.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.5.4",
+    "jest-styled-components": "^7.0.2",
     "prettier": "2.0.5",
     "prop-types": "^15.7.2",
     "react-icons": "^3.10.0",
@@ -76,6 +79,7 @@
   "pre-push": [
     "test"
   ],
+  "pre-commit": "npm run test:lint",
   "dependencies": {
     "@quarkly/atomize": "^1.0.5",
     "@quarkly/theme": "^0.1.3"

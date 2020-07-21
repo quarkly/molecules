@@ -1,7 +1,6 @@
 import { text, color, select, number } from '@storybook/addon-knobs';
 
 export default (defaults = {}) => ({
-
 	// Layout
 
 	'display': select(

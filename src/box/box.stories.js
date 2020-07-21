@@ -14,9 +14,7 @@ stories.addDecorator(withKnobs);
 stories.add('default', () => (
 	<Theme>
 		<Wrapper>
-			<Box { ...getKnobs() }>
-				{ text('Label', 'Default box') }
-			</Box>
+			<Box {...getKnobs()}>{text('Label', 'Default box')}</Box>
 		</Wrapper>
 	</Theme>
 ));
@@ -24,9 +22,7 @@ stories.add('default', () => (
 stories.add('header', () => (
 	<Theme>
 		<Wrapper>
-			<Box { ...getKnobs({ as: 'header' }) }>
-				{ text('Label', 'Header container') }
-			</Box>
+			<Box {...getKnobs({ as: 'header' })}>{text('Label', 'Header container')}</Box>
 		</Wrapper>
 	</Theme>
 ));
@@ -34,9 +30,7 @@ stories.add('header', () => (
 stories.add('section', () => (
 	<Theme>
 		<Wrapper>
-			<Box { ...getKnobs({ as: 'section' }) }>
-				{ text('Label', 'Section container') }
-			</Box>
+			<Box {...getKnobs({ as: 'section' })}>{text('Label', 'Section container')}</Box>
 		</Wrapper>
 	</Theme>
 ));
@@ -44,9 +38,7 @@ stories.add('section', () => (
 stories.add('footer', () => (
 	<Theme>
 		<Wrapper>
-			<Box { ...getKnobs({ as: 'footer' }) }>
-				{ text('Label', 'Footer container') }
-			</Box>
+			<Box {...getKnobs({ as: 'footer' })}>{text('Label', 'Footer container')}</Box>
 		</Wrapper>
 	</Theme>
 ));

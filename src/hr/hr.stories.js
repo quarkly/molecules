@@ -14,7 +14,7 @@ stories.addDecorator(withKnobs);
 stories.add('default', () => (
 	<Theme>
 		<Wrapper>
-			<Hr { ...getKnobs() }></Hr>
+			<Hr {...getKnobs()} />
 		</Wrapper>
 	</Theme>
 ));

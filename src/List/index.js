@@ -8,23 +8,21 @@ export default atomize.ul(
 		effects: {
 			hover: ':hover',
 			focus: ':focus',
-			active: ':active'
-		},		
+			active: ':active',
+		},
 		normalize: true,
 		mixins: true,
 		description: {
-			en:
-				'List element — contains entities of the same level',
-			ru:
-				'Элемент link — ссылка, которая может быть оберткой для других элементов'
+			en: 'List element — contains entities of the same level',
+			ru: 'Элемент link — ссылка, которая может быть оберткой для других элементов',
 		},
 		propInfo: {
-			as: {
+			'as': {
 				control: 'select',
 				type: 'string',
-				variants: [ 'ul', 'ol' ],
+				variants: ['ul', 'ol'],
 				category: 'Main',
-				weight: 1
+				weight: 1,
 			},
 			'list-style-type': {
 				control: 'select',
@@ -35,7 +33,7 @@ export default atomize.ul(
 					'square',
 					'armenian',
 					'decimal',
-					'decimal-leading-zero' ,
+					'decimal-leading-zero',
 					'georgian',
 					'lower-alpha',
 					'lower-greek',
@@ -50,9 +48,9 @@ export default atomize.ul(
 					'unset',
 				],
 				category: 'Styles',
-				weight: 1
-			}	  
-		}
+				weight: 1,
+			},
+		},
 	},
 	defaults,
 );

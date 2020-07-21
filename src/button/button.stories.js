@@ -14,9 +14,7 @@ stories.addDecorator(withKnobs);
 stories.add('submit', () => (
 	<Theme>
 		<Wrapper>
-			<Button { ...getKnobs() }>
-				{ text('Label', 'Submit') }
-			</Button>
+			<Button {...getKnobs()}>{text('Label', 'Submit')}</Button>
 		</Wrapper>
 	</Theme>
 ));
@@ -24,9 +22,7 @@ stories.add('submit', () => (
 stories.add('button', () => (
 	<Theme>
 		<Wrapper>
-			<Button { ...getKnobs({ type: 'button' }) }>
-				{ text('Label', 'Button') }
-			</Button>
+			<Button {...getKnobs({ type: 'button' })}>{text('Label', 'Button')}</Button>
 		</Wrapper>
 	</Theme>
 ));
@@ -34,9 +30,7 @@ stories.add('button', () => (
 stories.add('disabled', () => (
 	<Theme>
 		<Wrapper>
-			<Button { ...getKnobs({ disabled: true }) }>
-				{ text('Label', 'Disabled') }
-			</Button>
+			<Button {...getKnobs({ disabled: true })}>{text('Label', 'Disabled')}</Button>
 		</Wrapper>
 	</Theme>
 ));

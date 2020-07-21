@@ -1,4 +1,4 @@
 export default {
 	'as': 'ul',
-	'list-style-type': 'disc'
+	'list-style-type': 'disc',
 };

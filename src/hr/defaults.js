@@ -7,5 +7,5 @@ export default {
 	'border-style': 'solid',
 	'border-color': '--color-lightD2',
 
-	'display': 'block'
+	'display': 'block',
 };
