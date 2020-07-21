@@ -1,9 +1,9 @@
 {
-  "name": "@quarkly/elements",
+  "name": "@quarkly/molecules",
   "description": "atomic react UI components",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.5.7",
+  "version": "0.0.1",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
@@ -51,7 +51,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.3",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^26.1.0",
+    "jest": "^25.5.4",
     "prettier": "2.0.5",
     "prop-types": "^15.7.2",
     "react-icons": "^3.10.0",
