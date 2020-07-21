@@ -1,8 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Box default 1`] = `
+.c0 {
+  min-width: 16px;
+  min-height: 16px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <div
-  className="sc-AxjAm gVFfZc"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
@@ -17,8 +65,56 @@ exports[`Storyshots Box default 1`] = `
 `;
 
 exports[`Storyshots Box footer 1`] = `
+.c0 {
+  min-width: 16px;
+  min-height: 16px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <footer
-  className="sc-AxjAm gVFfZc"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
@@ -33,8 +129,56 @@ exports[`Storyshots Box footer 1`] = `
 `;
 
 exports[`Storyshots Box header 1`] = `
+.c0 {
+  min-width: 16px;
+  min-height: 16px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <header
-  className="sc-AxjAm gVFfZc"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
@@ -49,8 +193,56 @@ exports[`Storyshots Box header 1`] = `
 `;
 
 exports[`Storyshots Box section 1`] = `
+.c0 {
+  min-width: 16px;
+  min-height: 16px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <section
-  className="sc-AxjAm gVFfZc"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
@@ -65,8 +257,82 @@ exports[`Storyshots Box section 1`] = `
 `;
 
 exports[`Storyshots Button button 1`] = `
+.c0 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font: var(--qtheme-font-base);
+  color: var(--qtheme-color-light);
+  background: var(--qtheme-color-primary);
+  border-width: 0px;
+  border-style: none;
+  border-radius: 2px;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  overflow: visible;
+  cursor: pointer;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c0:disabled,
+.c0[data-quarkly-state="disabled"] {
+  background: var(--qtheme-color-grey);
+}
+
+.c0:focus,
+.c0[data-quarkly-state="focus"] {
+  box-shadow: 0 0 0 2px var(--qtheme-color-primary);
+}
+
 <button
-  className="sc-AxirZ eyOqve"
+  className="c0"
   color="--color-light"
   cursor="pointer"
   disabled={false}
@@ -84,8 +350,82 @@ exports[`Storyshots Button button 1`] = `
 `;
 
 exports[`Storyshots Button disabled 1`] = `
+.c0 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font: var(--qtheme-font-base);
+  color: var(--qtheme-color-light);
+  background: var(--qtheme-color-primary);
+  border-width: 0px;
+  border-style: none;
+  border-radius: 2px;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  overflow: visible;
+  cursor: pointer;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c0:disabled,
+.c0[data-quarkly-state="disabled"] {
+  background: var(--qtheme-color-grey);
+}
+
+.c0:focus,
+.c0[data-quarkly-state="focus"] {
+  box-shadow: 0 0 0 2px var(--qtheme-color-primary);
+}
+
 <button
-  className="sc-AxirZ eyOqve"
+  className="c0"
   color="--color-light"
   cursor="pointer"
   disabled={true}
@@ -103,8 +443,82 @@ exports[`Storyshots Button disabled 1`] = `
 `;
 
 exports[`Storyshots Button submit 1`] = `
+.c0 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font: var(--qtheme-font-base);
+  color: var(--qtheme-color-light);
+  background: var(--qtheme-color-primary);
+  border-width: 0px;
+  border-style: none;
+  border-radius: 2px;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  overflow: visible;
+  cursor: pointer;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c0:disabled,
+.c0[data-quarkly-state="disabled"] {
+  background: var(--qtheme-color-grey);
+}
+
+.c0:focus,
+.c0[data-quarkly-state="focus"] {
+  box-shadow: 0 0 0 2px var(--qtheme-color-primary);
+}
+
 <button
-  className="sc-AxirZ eyOqve"
+  className="c0"
   color="--color-light"
   cursor="pointer"
   disabled={false}
@@ -122,8 +536,57 @@ exports[`Storyshots Button submit 1`] = `
 `;
 
 exports[`Storyshots Hr default 1`] = `
+.c0 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-bottom: 4px;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: var(--qtheme-color-lightD2);
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <hr
-  className="sc-AxiKw eIyrbV"
+  className="c0"
   color=""
   cursor="–"
   display="block"
@@ -136,9 +599,58 @@ exports[`Storyshots Hr default 1`] = `
 `;
 
 exports[`Storyshots Image default 1`] = `
+.c0 {
+  min-width: 16px;
+  min-height: 16px;
+  display: inline-block;
+  max-width: 960px;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <img
   alt=""
-  className="sc-AxhCb gabAnK"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
@@ -153,9 +665,58 @@ exports[`Storyshots Image default 1`] = `
 `;
 
 exports[`Storyshots Image with alt & title 1`] = `
+.c0 {
+  min-width: 16px;
+  min-height: 16px;
+  display: inline-block;
+  max-width: 960px;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <img
   alt="Transfer necessary element props of your components to the panel"
-  className="sc-AxhCb gabAnK"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
@@ -170,8 +731,54 @@ exports[`Storyshots Image with alt & title 1`] = `
 `;
 
 exports[`Storyshots List ol default 1`] = `
+.c0 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <ol
-  className="sc-AxhUy dbOMIn"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
@@ -197,8 +804,55 @@ exports[`Storyshots List ol default 1`] = `
 `;
 
 exports[`Storyshots List ol latin 1`] = `
+.c0 {
+  list-style-type: lower-latin;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <ol
-  className="sc-AxhUy gtGfob"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
@@ -224,8 +878,55 @@ exports[`Storyshots List ol latin 1`] = `
 `;
 
 exports[`Storyshots List ul circle 1`] = `
+.c0 {
+  list-style-type: circle;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <ul
-  className="sc-AxhUy ghnlpp"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
@@ -251,8 +952,54 @@ exports[`Storyshots List ul circle 1`] = `
 `;
 
 exports[`Storyshots List ul default 1`] = `
+.c0 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <ul
-  className="sc-AxhUy dbOMIn"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
@@ -278,8 +1025,54 @@ exports[`Storyshots List ul default 1`] = `
 `;
 
 exports[`Storyshots Select default 1`] = `
+.c0 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
 <select
-  className="sc-AxgMl dvCEsp"
+  className="c0"
   color=""
   cursor="–"
   display="inline-block"
