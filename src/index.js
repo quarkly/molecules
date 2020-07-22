@@ -13,3 +13,4 @@ export { default as Option } from './option';
 // Inline wysiwyg components
 export { default as Inline } from './inline';
 export { default as Span } from './span';
+export { default as U } from './u';
