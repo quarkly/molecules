@@ -5,24 +5,16 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 import Theme from '@quarkly/theme';
 import getKnobs from './knobs';
 import Wrapper from '../modules/wrapper';
-import { Strike, S } from './index';
+import U from './index';
 
-const stories = storiesOf('S', module);
+const stories = storiesOf('Text (underline)', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Strike', () => (
+stories.add('u', () => (
 	<Theme>
 		<Wrapper>
-			<Strike {...getKnobs()}>{text('Text', 'Strike text here')}</Strike>
-		</Wrapper>
-	</Theme>
-));
-
-stories.add('S', () => (
-	<Theme>
-		<Wrapper>
-			<S {...getKnobs()}>{text('Text', 'Strike text here')}</S>
+			<U {...getKnobs()}>{text('Text', 'Underline text here')}</U>
 		</Wrapper>
 	</Theme>
 ));

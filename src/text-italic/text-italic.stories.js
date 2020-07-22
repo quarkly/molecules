@@ -5,16 +5,24 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 import Theme from '@quarkly/theme';
 import getKnobs from './knobs';
 import Wrapper from '../modules/wrapper';
-import Inline from './index';
+import { Em, I } from './index';
 
-const stories = storiesOf('Inline', module);
+const stories = storiesOf('Text (italic)', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('default', () => (
+stories.add('em', () => (
 	<Theme>
 		<Wrapper>
-			<Inline {...getKnobs()}>{text('Text', 'Some text here')}</Inline>
+			<Em {...getKnobs()}>{text('Text', 'Italic text here')}</Em>
+		</Wrapper>
+	</Theme>
+));
+
+stories.add('i', () => (
+	<Theme>
+		<Wrapper>
+			<I {...getKnobs()}>{text('Text', 'Italic text here')}</I>
 		</Wrapper>
 	</Theme>
 ));

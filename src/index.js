@@ -12,9 +12,9 @@ export { default as Select } from './select';
 export { default as Option } from './option';
 
 // Inline wysiwyg components
-export { default as Inline } from './inline';
-export { default as Span } from './span';
-export { default as U } from './u';
-export { Em, I } from './i';
-export { Strong, B } from './b';
-export { Strike, S } from './s';
+export { default as Inline } from './text-inline';
+export { default as Span } from './text-span';
+export { default as U } from './text-underline';
+export { Em, I } from './text-italic';
+export { Strong, B } from './text-strong';
+export { Strike, S } from './text-strike';

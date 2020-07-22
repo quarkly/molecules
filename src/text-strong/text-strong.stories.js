@@ -7,11 +7,11 @@ import getKnobs from './knobs';
 import Wrapper from '../modules/wrapper';
 import { Strong, B } from './index';
 
-const stories = storiesOf('B', module);
+const stories = storiesOf('Text (strong)', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Strong', () => (
+stories.add('strong', () => (
 	<Theme>
 		<Wrapper>
 			<Strong {...getKnobs()}>{text('Text', 'Strong text here')}</Strong>
@@ -19,7 +19,7 @@ stories.add('Strong', () => (
 	</Theme>
 ));
 
-stories.add('B', () => (
+stories.add('b', () => (
 	<Theme>
 		<Wrapper>
 			<B {...getKnobs()}>{text('Text', 'Bold text here')}</B>

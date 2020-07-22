@@ -7,11 +7,11 @@ import getKnobs from './knobs';
 import Wrapper from '../modules/wrapper';
 import Span from './index';
 
-const stories = storiesOf('Span', module);
+const stories = storiesOf('Text (span)', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('default', () => (
+stories.add('span', () => (
 	<Theme>
 		<Wrapper>
 			<Span {...getKnobs()}>{text('Text', 'Some text here')}</Span>
