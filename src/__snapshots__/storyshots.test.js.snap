@@ -910,6 +910,594 @@ exports[`Storyshots Image with alt & title 1`] = `
 </div>
 `;
 
+exports[`Storyshots Input default input 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font: var(--qtheme-font-base);
+  outline: none;
+  color: var(--qtheme-color-dark);
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--qtheme-color-lightD2);
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c1:focus,
+.c1[data-quarkly-state="focus"] {
+  border-color: var(--qtheme-color-lightD1);
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <input
+    className="c1"
+    color="--dark"
+    cursor="–"
+    defaultValue=""
+    disabled={false}
+    display="inline-block"
+    filter="none"
+    height=""
+    name=""
+    opacity="1"
+    placeholder=""
+    required={false}
+    transform="none"
+    type="text"
+    width=""
+  />
+</div>
+`;
+
+exports[`Storyshots Input default textarea 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font: var(--qtheme-font-base);
+  outline: none;
+  color: var(--qtheme-color-dark);
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--qtheme-color-lightD2);
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c1:focus,
+.c1[data-quarkly-state="focus"] {
+  border-color: var(--qtheme-color-lightD1);
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <textarea
+    className="c1"
+    color="--dark"
+    cursor="–"
+    defaultValue=""
+    disabled={false}
+    display="inline-block"
+    filter="none"
+    height=""
+    name=""
+    opacity="1"
+    placeholder=""
+    required={false}
+    transform="none"
+    type="text"
+    width=""
+  />
+</div>
+`;
+
+exports[`Storyshots Input input with placeholder 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font: var(--qtheme-font-base);
+  outline: none;
+  color: var(--qtheme-color-dark);
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--qtheme-color-lightD2);
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c1:focus,
+.c1[data-quarkly-state="focus"] {
+  border-color: var(--qtheme-color-lightD1);
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <input
+    className="c1"
+    color="--dark"
+    cursor="–"
+    defaultValue=""
+    disabled={false}
+    display="inline-block"
+    filter="none"
+    height=""
+    name=""
+    opacity="1"
+    placeholder="some placeholder"
+    required={false}
+    transform="none"
+    type="text"
+    width=""
+  />
+</div>
+`;
+
+exports[`Storyshots Input input with value 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font: var(--qtheme-font-base);
+  outline: none;
+  color: var(--qtheme-color-dark);
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--qtheme-color-lightD2);
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c1:focus,
+.c1[data-quarkly-state="focus"] {
+  border-color: var(--qtheme-color-lightD1);
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <input
+    className="c1"
+    color="--dark"
+    cursor="–"
+    defaultValue="default value"
+    disabled={false}
+    display="inline-block"
+    filter="none"
+    height=""
+    name=""
+    opacity="1"
+    placeholder="some placeholder"
+    required={false}
+    transform="none"
+    type="text"
+    width=""
+  />
+</div>
+`;
+
+exports[`Storyshots Input textarea with placeholder 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font: var(--qtheme-font-base);
+  outline: none;
+  color: var(--qtheme-color-dark);
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--qtheme-color-lightD2);
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c1:focus,
+.c1[data-quarkly-state="focus"] {
+  border-color: var(--qtheme-color-lightD1);
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <textarea
+    className="c1"
+    color="--dark"
+    cursor="–"
+    defaultValue=""
+    disabled={false}
+    display="inline-block"
+    filter="none"
+    height=""
+    name=""
+    opacity="1"
+    placeholder="some placeholder"
+    required={false}
+    transform="none"
+    type="text"
+    width=""
+  />
+</div>
+`;
+
+exports[`Storyshots Input textarea with value 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font: var(--qtheme-font-base);
+  outline: none;
+  color: var(--qtheme-color-dark);
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--qtheme-color-lightD2);
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c1:focus,
+.c1[data-quarkly-state="focus"] {
+  border-color: var(--qtheme-color-lightD1);
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <textarea
+    className="c1"
+    color="--dark"
+    cursor="–"
+    defaultValue="default value"
+    disabled={false}
+    display="inline-block"
+    filter="none"
+    height=""
+    name=""
+    opacity="1"
+    placeholder="some placeholder"
+    required={false}
+    transform="none"
+    type="text"
+    width=""
+  />
+</div>
+`;
+
 exports[`Storyshots List ol default 1`] = `
 .c0 {
   margin: 16px 8px;
@@ -1276,6 +1864,86 @@ exports[`Storyshots List ul default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Option default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <option
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Option Name
+  </option>
+</div>
+`;
+
 exports[`Storyshots Select default 1`] = `
 .c0 {
   margin: 16px 8px;
@@ -1352,25 +2020,1417 @@ exports[`Storyshots Select default 1`] = `
     width=""
   >
     <option
-      value="option1"
+      className=""
     >
       Option 1
     </option>
     <option
-      value="option2"
+      className=""
     >
       Option 2
     </option>
     <option
-      value="option3"
+      className=""
     >
       Option 3
     </option>
     <option
-      value="option4"
+      className=""
     >
       Option 4
     </option>
   </select>
+</div>
+`;
+
+exports[`Storyshots Text (inline) span 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <span
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Some text here
+  </span>
+</div>
+`;
+
+exports[`Storyshots Text (italic) em 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <em
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Italic text here
+  </em>
+</div>
+`;
+
+exports[`Storyshots Text (italic) i 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <i
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Italic text here
+  </i>
+</div>
+`;
+
+exports[`Storyshots Text (span) span 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <span
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Some text here
+  </span>
+</div>
+`;
+
+exports[`Storyshots Text (strike) s 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <s
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Strike text here
+  </s>
+</div>
+`;
+
+exports[`Storyshots Text (strike) strike 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <strike
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Strike text here
+  </strike>
+</div>
+`;
+
+exports[`Storyshots Text (strong) b 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <b
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Bold text here
+  </b>
+</div>
+`;
+
+exports[`Storyshots Text (strong) strong 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <strong
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Strong text here
+  </strong>
+</div>
+`;
+
+exports[`Storyshots Text (underline) u 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <u
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Underline text here
+  </u>
+</div>
+`;
+
+exports[`Storyshots Text default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <div
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Some text here
+  </div>
+</div>
+`;
+
+exports[`Storyshots Text header 1 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <h1
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Header 1
+  </h1>
+</div>
+`;
+
+exports[`Storyshots Text header 2 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <h2
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Header 2
+  </h2>
+</div>
+`;
+
+exports[`Storyshots Text header 3 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <h3
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Header 3
+  </h3>
+</div>
+`;
+
+exports[`Storyshots Text header 4 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <h4
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Header 4
+  </h4>
+</div>
+`;
+
+exports[`Storyshots Text header 5 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <h5
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Header 5
+  </h5>
+</div>
+`;
+
+exports[`Storyshots Text header 6 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <h6
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Header 6
+  </h6>
+</div>
+`;
+
+exports[`Storyshots Text paragraph 1`] = `
+.c0 {
+  margin: 16px 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+
+.c1 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  color="#000000"
+>
+  <p
+    className="c1"
+    color=""
+    cursor="–"
+    display="inline-block"
+    filter="none"
+    height=""
+    opacity="1"
+    transform="none"
+    width=""
+  >
+    Paragraph
+  </p>
 </div>
 `;
