@@ -16,3 +16,4 @@ export { default as Span } from './span';
 export { default as U } from './u';
 export { Em, I } from './i';
 export { Strong, B } from './b';
+export { Strike, S } from './s';
