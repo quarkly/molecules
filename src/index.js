@@ -9,3 +9,6 @@ export { default as List } from './list';
 // Hidden widgets
 export { default as Select } from './select';
 export { default as Option } from './option';
+
+// Inline wysiwyg components
+export { default as Inline } from './inline';
