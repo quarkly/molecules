@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
-
+//1
 exports[`Storyshots Primitives/Box default 1`] = `
 .c0 {
   margin: 16px 8px;
