@@ -7,6 +7,7 @@
 # Molecules
 
 Molecules — atomic react UI components based on [Atomize](https://github.com/quarkly/atomize).
+
 Used in Quarkly — design tool for creating websites and web apps.
 
 [npm]: https://npmjs.com/package/@quarkly/atomize
@@ -15,6 +16,8 @@ Used in Quarkly — design tool for creating websites and web apps.
 [CI]: https://badgen.net/github/status/quarkly/atomize/master/ci
 [coverage]: https://badgen.net/codecov/c/github/quarkly/atomize
 [license]: https://badgen.net/github/license/quarkly/atomize
+
+<br>
 
 ## Get started
 
@@ -26,6 +29,7 @@ npm i
 ```sh
 npm run storybook
 ```
+<br>
 
 ## Components
 
@@ -49,6 +53,7 @@ npm run storybook
 - [x] [Underline](https://github.com/quarkly/molecules/tree/master/src/wysiwyg/underline)
 - [x] [Strike](https://github.com/quarkly/molecules/tree/master/src/wysiwyg/strike)
 
+<br>
 
 ## Soon
 
