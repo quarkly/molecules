@@ -3,7 +3,7 @@
   "description": "atomic react UI components",
   "author": "Eddort",
   "user": "Eddort",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook -c .storybook",
