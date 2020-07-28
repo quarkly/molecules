@@ -10,14 +10,17 @@ Molecules — atomic react UI components based on [Atomize](https://github.com/q
 
 Used in Quarkly — design tool for creating websites and web apps.
 
-[npm]: https://npmjs.com/package/@quarkly/atomize
-[release]: https://badgen.net/github/release/quarkly/atomize
-[status]: https://badgen.net/github/status/quarkly/atomize
-[CI]: https://badgen.net/github/status/quarkly/atomize/master/ci
-[coverage]: https://badgen.net/codecov/c/github/quarkly/atomize
-[license]: https://badgen.net/github/license/quarkly/atomize
+![npm](https://badgen.net/npm/v/@quarkly/molecules?color=blue)
+![release](https://badgen.net/github/release/quarkly/molecules)
+![status](https://badgen.net/github/status/quarkly/molecules)
+![license](https://badgen.net/github/license/quarkly/molecules)
 
 <br>
+
+## General Resources
+
+- [Storybook](https://molecules.quarkly.io)
+- [Quarkly](https://quarkly.io)
 
 ## Get started
 
