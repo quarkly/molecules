@@ -11,3 +11,5 @@ example/
 coverage/
 .jest
 jest.config.js
+node_modules
+storybook-static
