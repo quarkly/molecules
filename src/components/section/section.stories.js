@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 
 import Theme from '@quarkly/theme';
+import defaults from './defaults';
 import getKnobs from './knobs';
 import Wrapper from '../../modules/wrapper';
 import Section from './index';
@@ -14,7 +15,7 @@ stories.addDecorator(withKnobs);
 stories.add('default', () => (
 	<Theme>
 		<Wrapper>
-			<Section {...getKnobs()} />
+			<Section {...getKnobs(defaults)}>Default Section</Section>
 		</Wrapper>
 	</Theme>
 ));
