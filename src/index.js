@@ -11,6 +11,9 @@ export { default as List } from './primitives/list';
 export { default as Select } from './primitives/select';
 export { default as Option } from './primitives/option';
 
+// Default components
+export { default as Section } from './components/section';
+
 // Inline wysiwyg components
 export { default as Inline } from './wysiwyg/inline';
 export { default as Span } from './wysiwyg/span';
