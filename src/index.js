@@ -13,6 +13,7 @@ export { default as Option } from './primitives/option';
 
 // Default components
 export { default as Section } from './components/section';
+export { default as StackItem } from './components/stackItem';
 
 // Inline wysiwyg components
 export { default as Inline } from './wysiwyg/inline';
