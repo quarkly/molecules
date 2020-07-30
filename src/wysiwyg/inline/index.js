@@ -2,6 +2,8 @@ import atomize from '@quarkly/atomize';
 
 import defaults from './defaults';
 
+export { defaults as defaultsInline };
+
 export default atomize.span(
 	{
 		name: 'Inline',

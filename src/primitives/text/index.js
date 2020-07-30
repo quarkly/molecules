@@ -2,6 +2,8 @@ import atomize from '@quarkly/atomize';
 
 import defaults from './defaults';
 
+export { defaults as defaultsText };
+
 export default atomize.div(
 	{
 		name: 'Text',

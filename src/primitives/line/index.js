@@ -2,14 +2,16 @@ import atomize from '@quarkly/atomize';
 
 import defaults from './defaults';
 
+export { defaults as defaultsLine };
+
 export default atomize.hr(
 	{
-		name: 'Hr',
+		name: 'Line',
 		normalize: true,
 		mixins: true,
 		description: {
-			en: 'Hr element — horizontal line to separate content',
-			ru: 'Элемент hr — разделительная линия',
+			en: 'Line element — horizontal line to separate content',
+			ru: 'Элемент line — разделительная линия',
 		},
 		propInfo: {},
 	},

@@ -50,6 +50,8 @@ const A = forwardRef((props, ref) => {
 	return <a href={href} target={target} ref={ref} {...rest} />;
 });
 
+export { defaults as defaultsLink };
+
 export default atomize(A)(
 	{
 		name: 'Link',
