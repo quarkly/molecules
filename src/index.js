@@ -17,6 +17,7 @@ export { default as Section } from './components/section';
 export { default as Stack } from './components/stack';
 export { default as StackItem } from './components/stackItem';
 export { default as Formspree } from './components/formspree';
+export { default as GoogleMap } from './components/googlemap';
 
 // Inline wysiwyg components
 export { default as Inline } from './wysiwyg/inline';
