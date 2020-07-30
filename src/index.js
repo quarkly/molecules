@@ -4,6 +4,7 @@ export { default as Button } from './primitives/button';
 export { default as Text } from './primitives/text';
 export { default as Link } from './primitives/link';
 export { default as Line } from './primitives/line';
+export { default as Icon } from './primitives/icon';
 export { default as Image } from './primitives/image';
 export { default as Input } from './primitives/input';
 export { default as List } from './primitives/list';
