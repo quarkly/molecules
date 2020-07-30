@@ -20,6 +20,7 @@ export { default as StackItem } from './components/stackItem';
 export { default as Formspree } from './components/formspree';
 export { default as GoogleMap } from './components/googlemap';
 export { default as Menu } from './components/menu';
+export { default as SocialMedia } from './components/socialMedia';
 
 // Inline wysiwyg components
 export { default as Inline } from './wysiwyg/inline';
