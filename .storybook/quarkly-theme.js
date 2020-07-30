@@ -4,10 +4,10 @@ export default create({
 	base: '#191C22',
 
 	colorPrimary: '#AFBED1',
-	colorSecondary: '#2C3139',
+	colorSecondary: '#248DE0',
 
 	// UI
-	appBg: '#22262E',
+	appBg: '#0D1117',
 	appContentBg: '#191C22',
 	appBorderColor: '#2C3139',
 	appBorderRadius: 0,
