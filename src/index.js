@@ -2,6 +2,7 @@
 export { default as Box } from './primitives/box';
 export { default as Button } from './primitives/button';
 export { default as Text } from './primitives/text';
+export { default as Link } from './primitives/link';
 export { default as Hr } from './primitives/hr';
 export { default as Image } from './primitives/image';
 export { default as Input } from './primitives/input';
