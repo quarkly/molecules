@@ -14,7 +14,7 @@ stories.addDecorator(withKnobs);
 stories.add('default', () => (
 	<Theme>
 		<Wrapper>
-			<Text {...defaultsText}>
+			<Text {...defaultsText} margin-left="32px">
 				{'This component is only available in '}
 				<Link {...defaultsLink} href="https://quarkly.io/" target="_blank">
 					Quarkly.io
