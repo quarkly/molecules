@@ -82,6 +82,9 @@
   "pre-commit": "npm run test:lint",
   "dependencies": {
     "@quarkly/atomize": "^1.0.5",
-    "@quarkly/theme": "^0.1.3"
+    "@quarkly/components": "^0.2.30",
+    "@quarkly/theme": "^0.1.3",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.0.0"
   }
 }

@@ -2,6 +2,8 @@ import atomize from '@quarkly/atomize';
 
 import defaults from './defaults';
 
+export { defaults as defaultsImage };
+
 export default atomize.img(
 	{
 		name: 'Image',

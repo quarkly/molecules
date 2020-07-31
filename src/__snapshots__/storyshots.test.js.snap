@@ -1,8 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
-//1
-exports[`Storyshots Primitives/Box default 1`] = `
+
+exports[`Storyshots Components/Formspree default 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -12,9 +20,1419 @@ exports[`Storyshots Primitives/Box default 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
+}
+
+.c4 {
+  color: currentColor;
+}
+
+.c3 {
+  padding: 16px 32px;
+  border: 2px solid;
+  min-width: 100px;
+}
+
+.c2 {
+  min-height: 32px;
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      className="c2"
+      color=""
+      cursor="–"
+      display="block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      <div
+        className="c3"
+      >
+        Create a form on 
+        <a
+          className="c4"
+          color="currentColor"
+          href="https://formspree.io/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          formspree.io
+        </a>
+         and fill in the 
+        <strong
+          className=""
+        >
+          endpoint
+        </strong>
+         field on the 
+        <strong
+          className=""
+        >
+          props panel
+        </strong>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/GoogleMap default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      align-items="–"
+      background=""
+      background-attachment="–"
+      background-clip="–"
+      background-image="url()"
+      background-position="none"
+      background-repeat="–"
+      background-size="none"
+      blend-mode="–"
+      border-color="rgb(118,118,118)"
+      border-radius=""
+      border-style="none"
+      border-width="0px"
+      bottom=""
+      box-shadow="none"
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      flex-direction="row"
+      flex-wrap="nowrap"
+      font=""
+      font-family=""
+      font-size=""
+      font-style="–"
+      font-variant="–"
+      font-weight=""
+      height="450px"
+      justify-content="–"
+      left=""
+      letter-spacing=""
+      line-height=""
+      margin-bottom=""
+      margin-left=""
+      margin-right=""
+      margin-top=""
+      max-height=""
+      max-width=""
+      min-height=""
+      min-width=""
+      opacity="1"
+      overflow-x="visible"
+      overflow-y="visible"
+      padding-bottom=""
+      padding-left=""
+      padding-right=""
+      padding-top=""
+      position="relative"
+      right=""
+      text-align="left"
+      text-decoration=""
+      text-shadow="none"
+      text-transform=""
+      top=""
+      transform="none"
+      transition="all 0s ease 0s"
+      white-space="–"
+      width="100%"
+      z-index="auto"
+    >
+      <iframe
+        allowFullScreen={true}
+        frameBorder="0"
+        src="https://www.google.com/maps/embed/v1/place?key=none&q=none"
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          }
+        }
+        title="GoogleMap"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Menu default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  margin-left: 32px;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      className="c2"
+    >
+      This component is only available in 
+      <a
+        className=""
+        href="https://quarkly.io/"
+        target="_blank"
+      >
+        Quarkly.io
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Section default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+  margin: 0;
+  padding: 24px 0;
+}
+
+.c3 {
+  min-width: 300px;
+  min-height: 16px;
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <section
+      className="c2"
+      color=""
+      cursor="–"
+      display="flex"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width="100%"
+    >
+      <div
+        className="c3"
+        data-qoverride="sectionContent"
+        display="flex"
+        width="90%"
+      >
+        Default Section
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/SocialMedia default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  margin-left: 32px;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      className="c2"
+    >
+      This component is only available in 
+      <a
+        className=""
+        href="https://quarkly.io/"
+        target="_blank"
+      >
+        Quarkly.io
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Stack 2 items (default) 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c5 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+}
+
+.c2 {
+  margin: calc(32px * -0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c3 {
+  min-width: 16px;
+  min-height: 16px;
+  width: 50%;
+  padding: calc(32px / 2);
+  box-sizing: border-box;
+}
+
+.c4 {
+  min-width: 16px;
+  min-height: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      className="c2"
+      color=""
+      cursor="–"
+      display="flex"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      <div
+        className="c3"
+        width="50%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            First Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="50%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Second Item
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Stack 3 items 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c5 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+}
+
+.c2 {
+  margin: calc(32px * -0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c3 {
+  min-width: 16px;
+  min-height: 16px;
+  width: 33.33%;
+  padding: calc(32px / 2);
+  box-sizing: border-box;
+}
+
+.c4 {
+  min-width: 16px;
+  min-height: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      className="c2"
+      color=""
+      cursor="–"
+      display="flex"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      <div
+        className="c3"
+        width="33.33%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            First Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="33.33%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Second Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="33.33%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Third Item
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Stack 4 items 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c5 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+}
+
+.c2 {
+  margin: calc(32px * -0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c3 {
+  min-width: 16px;
+  min-height: 16px;
+  width: 25%;
+  padding: calc(32px / 2);
+  box-sizing: border-box;
+}
+
+.c4 {
+  min-width: 16px;
+  min-height: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      className="c2"
+      color=""
+      cursor="–"
+      display="flex"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      <div
+        className="c3"
+        width="25%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            First Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="25%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Second Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="25%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Third Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="25%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Fourth Item
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Stack 6 items 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c5 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+}
+
+.c2 {
+  margin: calc(32px * -0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.c3 {
+  min-width: 16px;
+  min-height: 16px;
+  width: 16.66%;
+  padding: calc(32px / 2);
+  box-sizing: border-box;
+}
+
+.c4 {
+  min-width: 16px;
+  min-height: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      className="c2"
+      color=""
+      cursor="–"
+      display="flex"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      <div
+        className="c3"
+        width="16.66%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            First Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="16.66%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Second Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="16.66%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Third Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="16.66%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Fourth Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="16.66%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Fifth Item
+          </div>
+        </div>
+      </div>
+      <div
+        className="c3"
+        width="16.66%"
+      >
+        <div
+          className="c4"
+          data-qoverride="StackItemContent"
+          display="flex"
+        >
+          <div
+            className="c5"
+          >
+            Sixth Item
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/StackItem default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c4 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+}
+
+.c2 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+  padding: calc(undefined / 2);
+  box-sizing: border-box;
+}
+
+.c3 {
+  min-width: 16px;
+  min-height: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      <div
+        className="c3"
+        data-qoverride="StackItemContent"
+        display="flex"
+      >
+        <div
+          className="c4"
+        >
+          StackItem with Text
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Primitives/Box default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -64,20 +1482,27 @@ exports[`Storyshots Primitives/Box default 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
   <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Default box
+    <div
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Default box
+    </div>
   </div>
 </div>
 `;
@@ -85,6 +1510,14 @@ exports[`Storyshots Primitives/Box default 1`] = `
 exports[`Storyshots Primitives/Box footer 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -94,9 +1527,10 @@ exports[`Storyshots Primitives/Box footer 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -146,27 +1580,42 @@ exports[`Storyshots Primitives/Box footer 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <footer
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Footer container
-  </footer>
+    <footer
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Footer container
+    </footer>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Box header 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -176,9 +1625,10 @@ exports[`Storyshots Primitives/Box header 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -228,27 +1678,42 @@ exports[`Storyshots Primitives/Box header 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <header
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Header container
-  </header>
+    <header
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Header container
+    </header>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Box section 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -258,9 +1723,10 @@ exports[`Storyshots Primitives/Box section 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -310,27 +1776,42 @@ exports[`Storyshots Primitives/Box section 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <section
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Section container
-  </section>
+    <section
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Section container
+    </section>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Button button 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -340,9 +1821,10 @@ exports[`Storyshots Primitives/Button button 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -406,42 +1888,57 @@ exports[`Storyshots Primitives/Button button 1`] = `
   filter: none;
 }
 
-.c1:disabled,
-.c1[data-quarkly-state="disabled"] {
+.c2:disabled,
+.c2[data-quarkly-state="disabled"] {
   background: var(--qtheme-color-grey);
 }
 
-.c1:focus,
-.c1[data-quarkly-state="focus"] {
+.c2:focus,
+.c2[data-quarkly-state="focus"] {
   box-shadow: 0 0 0 2px var(--qtheme-color-primary);
 }
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <button
+  <div
     className="c1"
-    color="--color-light"
-    cursor="pointer"
-    disabled={false}
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    overflow="visible"
-    transform="none"
-    type="button"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Button
-  </button>
+    <button
+      className="c2"
+      color="--color-light"
+      cursor="pointer"
+      disabled={false}
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      overflow="visible"
+      transform="none"
+      type="button"
+      width=""
+    >
+      Button
+    </button>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Button disabled 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -451,9 +1948,10 @@ exports[`Storyshots Primitives/Button disabled 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -517,42 +2015,57 @@ exports[`Storyshots Primitives/Button disabled 1`] = `
   filter: none;
 }
 
-.c1:disabled,
-.c1[data-quarkly-state="disabled"] {
+.c2:disabled,
+.c2[data-quarkly-state="disabled"] {
   background: var(--qtheme-color-grey);
 }
 
-.c1:focus,
-.c1[data-quarkly-state="focus"] {
+.c2:focus,
+.c2[data-quarkly-state="focus"] {
   box-shadow: 0 0 0 2px var(--qtheme-color-primary);
 }
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <button
+  <div
     className="c1"
-    color="--color-light"
-    cursor="pointer"
-    disabled={true}
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    overflow="visible"
-    transform="none"
-    type="submit"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Disabled
-  </button>
+    <button
+      className="c2"
+      color="--color-light"
+      cursor="pointer"
+      disabled={true}
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      overflow="visible"
+      transform="none"
+      type="submit"
+      width=""
+    >
+      Disabled
+    </button>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Button submit 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -562,9 +2075,10 @@ exports[`Storyshots Primitives/Button submit 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -628,42 +2142,114 @@ exports[`Storyshots Primitives/Button submit 1`] = `
   filter: none;
 }
 
-.c1:disabled,
-.c1[data-quarkly-state="disabled"] {
+.c2:disabled,
+.c2[data-quarkly-state="disabled"] {
   background: var(--qtheme-color-grey);
 }
 
-.c1:focus,
-.c1[data-quarkly-state="focus"] {
+.c2:focus,
+.c2[data-quarkly-state="focus"] {
   box-shadow: 0 0 0 2px var(--qtheme-color-primary);
 }
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <button
+  <div
     className="c1"
-    color="--color-light"
-    cursor="pointer"
-    disabled={false}
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    overflow="visible"
-    transform="none"
-    type="submit"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Submit
-  </button>
+    <button
+      className="c2"
+      color="--color-light"
+      cursor="pointer"
+      disabled={false}
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      overflow="visible"
+      transform="none"
+      type="submit"
+      width=""
+    >
+      Submit
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Primitives/Icon default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  min-width: 8px;
+  min-height: 8px;
+  margin-left: 32px;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      className="c2"
+    >
+      This component is only available in 
+      <a
+        className=""
+        href="https://quarkly.io/"
+        target="_blank"
+      >
+        Quarkly.io
+      </a>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Image default 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -673,9 +2259,10 @@ exports[`Storyshots Primitives/Image default 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -726,28 +2313,43 @@ exports[`Storyshots Primitives/Image default 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <img
-    alt=""
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    src="https://uploads.quarkly.io/landing/quarkly-features-for-developers-hot-npm-import.png"
-    title=""
-    transform="none"
-    width=""
-  />
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <img
+      alt=""
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      src="https://uploads.quarkly.io/landing/quarkly-features-for-developers-hot-npm-import.png"
+      title=""
+      transform="none"
+      width=""
+    />
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Image with alt & title 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -757,9 +2359,10 @@ exports[`Storyshots Primitives/Image with alt & title 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   min-width: 16px;
   min-height: 16px;
   display: inline-block;
@@ -810,28 +2413,43 @@ exports[`Storyshots Primitives/Image with alt & title 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <img
-    alt="Transfer necessary element props of your components to the panel"
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    src="https://uploads.quarkly.io/landing/quarkly-features-for-developers-custom-props.png"
-    title="Transfer necessary element props of your components to the panel"
-    transform="none"
-    width=""
-  />
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <img
+      alt="Transfer necessary element props of your components to the panel"
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      src="https://uploads.quarkly.io/landing/quarkly-features-for-developers-custom-props.png"
+      title="Transfer necessary element props of your components to the panel"
+      transform="none"
+      width=""
+    />
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Input default input 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -841,9 +2459,10 @@ exports[`Storyshots Primitives/Input default input 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 16px;
@@ -898,38 +2517,53 @@ exports[`Storyshots Primitives/Input default input 1`] = `
   filter: none;
 }
 
-.c1:focus,
-.c1[data-quarkly-state="focus"] {
+.c2:focus,
+.c2[data-quarkly-state="focus"] {
   border-color: var(--qtheme-color-lightD1);
 }
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <input
+  <div
     className="c1"
-    color="--dark"
-    cursor="–"
-    defaultValue=""
-    disabled={false}
-    display="inline-block"
-    filter="none"
-    height=""
-    name=""
-    opacity="1"
-    placeholder=""
-    required={false}
-    transform="none"
-    type="text"
-    width=""
-  />
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <input
+      className="c2"
+      color="--dark"
+      cursor="–"
+      defaultValue=""
+      disabled={false}
+      display="inline-block"
+      filter="none"
+      height=""
+      name=""
+      opacity="1"
+      placeholder=""
+      required={false}
+      transform="none"
+      type="text"
+      width=""
+    />
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Input default textarea 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -939,9 +2573,10 @@ exports[`Storyshots Primitives/Input default textarea 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 16px;
@@ -996,38 +2631,53 @@ exports[`Storyshots Primitives/Input default textarea 1`] = `
   filter: none;
 }
 
-.c1:focus,
-.c1[data-quarkly-state="focus"] {
+.c2:focus,
+.c2[data-quarkly-state="focus"] {
   border-color: var(--qtheme-color-lightD1);
 }
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <textarea
+  <div
     className="c1"
-    color="--dark"
-    cursor="–"
-    defaultValue=""
-    disabled={false}
-    display="inline-block"
-    filter="none"
-    height=""
-    name=""
-    opacity="1"
-    placeholder=""
-    required={false}
-    transform="none"
-    type="text"
-    width=""
-  />
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <textarea
+      className="c2"
+      color="--dark"
+      cursor="–"
+      defaultValue=""
+      disabled={false}
+      display="inline-block"
+      filter="none"
+      height=""
+      name=""
+      opacity="1"
+      placeholder=""
+      required={false}
+      transform="none"
+      type="text"
+      width=""
+    />
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Input input with placeholder 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1037,9 +2687,10 @@ exports[`Storyshots Primitives/Input input with placeholder 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 16px;
@@ -1094,38 +2745,53 @@ exports[`Storyshots Primitives/Input input with placeholder 1`] = `
   filter: none;
 }
 
-.c1:focus,
-.c1[data-quarkly-state="focus"] {
+.c2:focus,
+.c2[data-quarkly-state="focus"] {
   border-color: var(--qtheme-color-lightD1);
 }
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <input
+  <div
     className="c1"
-    color="--dark"
-    cursor="–"
-    defaultValue=""
-    disabled={false}
-    display="inline-block"
-    filter="none"
-    height=""
-    name=""
-    opacity="1"
-    placeholder="some placeholder"
-    required={false}
-    transform="none"
-    type="text"
-    width=""
-  />
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <input
+      className="c2"
+      color="--dark"
+      cursor="–"
+      defaultValue=""
+      disabled={false}
+      display="inline-block"
+      filter="none"
+      height=""
+      name=""
+      opacity="1"
+      placeholder="some placeholder"
+      required={false}
+      transform="none"
+      type="text"
+      width=""
+    />
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Input input with value 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1135,9 +2801,10 @@ exports[`Storyshots Primitives/Input input with value 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 16px;
@@ -1192,38 +2859,53 @@ exports[`Storyshots Primitives/Input input with value 1`] = `
   filter: none;
 }
 
-.c1:focus,
-.c1[data-quarkly-state="focus"] {
+.c2:focus,
+.c2[data-quarkly-state="focus"] {
   border-color: var(--qtheme-color-lightD1);
 }
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <input
+  <div
     className="c1"
-    color="--dark"
-    cursor="–"
-    defaultValue="default value"
-    disabled={false}
-    display="inline-block"
-    filter="none"
-    height=""
-    name=""
-    opacity="1"
-    placeholder="some placeholder"
-    required={false}
-    transform="none"
-    type="text"
-    width=""
-  />
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <input
+      className="c2"
+      color="--dark"
+      cursor="–"
+      defaultValue="default value"
+      disabled={false}
+      display="inline-block"
+      filter="none"
+      height=""
+      name=""
+      opacity="1"
+      placeholder="some placeholder"
+      required={false}
+      transform="none"
+      type="text"
+      width=""
+    />
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Input textarea with placeholder 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1233,9 +2915,10 @@ exports[`Storyshots Primitives/Input textarea with placeholder 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 16px;
@@ -1290,38 +2973,53 @@ exports[`Storyshots Primitives/Input textarea with placeholder 1`] = `
   filter: none;
 }
 
-.c1:focus,
-.c1[data-quarkly-state="focus"] {
+.c2:focus,
+.c2[data-quarkly-state="focus"] {
   border-color: var(--qtheme-color-lightD1);
 }
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <textarea
+  <div
     className="c1"
-    color="--dark"
-    cursor="–"
-    defaultValue=""
-    disabled={false}
-    display="inline-block"
-    filter="none"
-    height=""
-    name=""
-    opacity="1"
-    placeholder="some placeholder"
-    required={false}
-    transform="none"
-    type="text"
-    width=""
-  />
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <textarea
+      className="c2"
+      color="--dark"
+      cursor="–"
+      defaultValue=""
+      disabled={false}
+      display="inline-block"
+      filter="none"
+      height=""
+      name=""
+      opacity="1"
+      placeholder="some placeholder"
+      required={false}
+      transform="none"
+      type="text"
+      width=""
+    />
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Input textarea with value 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1331,9 +3029,10 @@ exports[`Storyshots Primitives/Input textarea with value 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 16px;
@@ -1388,38 +3087,53 @@ exports[`Storyshots Primitives/Input textarea with value 1`] = `
   filter: none;
 }
 
-.c1:focus,
-.c1[data-quarkly-state="focus"] {
+.c2:focus,
+.c2[data-quarkly-state="focus"] {
   border-color: var(--qtheme-color-lightD1);
 }
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <textarea
+  <div
     className="c1"
-    color="--dark"
-    cursor="–"
-    defaultValue="default value"
-    disabled={false}
-    display="inline-block"
-    filter="none"
-    height=""
-    name=""
-    opacity="1"
-    placeholder="some placeholder"
-    required={false}
-    transform="none"
-    type="text"
-    width=""
-  />
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <textarea
+      className="c2"
+      color="--dark"
+      cursor="–"
+      defaultValue="default value"
+      disabled={false}
+      display="inline-block"
+      filter="none"
+      height=""
+      name=""
+      opacity="1"
+      placeholder="some placeholder"
+      required={false}
+      transform="none"
+      type="text"
+      width=""
+    />
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Line default 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1429,9 +3143,10 @@ exports[`Storyshots Primitives/Line default 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   margin-top: 16px;
   margin-bottom: 16px;
   padding-bottom: 4px;
@@ -1482,25 +3197,40 @@ exports[`Storyshots Primitives/Line default 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <hr
+  <div
     className="c1"
-    color=""
-    cursor="–"
+    color="#000000"
     display="block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
-  />
+    width="100%"
+  >
+    <hr
+      className="c2"
+      color=""
+      cursor="–"
+      display="block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    />
+  </div>
 </div>
 `;
 
-exports[`Storyshots Primitives/List ol default 1`] = `
+exports[`Storyshots Primitives/Link default 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1510,9 +3240,10 @@ exports[`Storyshots Primitives/List ol default 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -1560,38 +3291,95 @@ exports[`Storyshots Primitives/List ol default 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <ol
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    <li>
-      Item 1
-    </li>
-    <li>
-      Item 2
-    </li>
-    <li>
-      Item 3
-    </li>
-    <li>
-      Item 4
-    </li>
-  </ol>
+    <a
+      align-items="–"
+      background=""
+      background-attachment="–"
+      background-clip="–"
+      background-image="url()"
+      background-position="none"
+      background-repeat="–"
+      background-size="none"
+      blend-mode="–"
+      border-color="rgb(118,118,118)"
+      border-radius=""
+      border-style="none"
+      border-width="0px"
+      bottom=""
+      box-shadow="none"
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      flex-direction="row"
+      flex-wrap="nowrap"
+      font=""
+      font-family=""
+      font-size=""
+      font-style="–"
+      font-variant="–"
+      font-weight=""
+      height=""
+      href="/"
+      justify-content="–"
+      left=""
+      letter-spacing=""
+      line-height=""
+      margin-bottom=""
+      margin-left=""
+      margin-right=""
+      margin-top=""
+      max-height=""
+      max-width=""
+      min-height=""
+      min-width=""
+      onClick={[Function]}
+      opacity="1"
+      overflow-x="visible"
+      overflow-y="visible"
+      padding-bottom=""
+      padding-left=""
+      padding-right=""
+      padding-top=""
+      position="–"
+      right=""
+      text-align="left"
+      text-decoration=""
+      text-shadow="none"
+      text-transform=""
+      top=""
+      transform="none"
+      transition="all 0s ease 0s"
+      white-space="–"
+      width=""
+      z-index="auto"
+    >
+      Some text
+    </a>
+  </div>
 </div>
 `;
 
-exports[`Storyshots Primitives/List ol latin 1`] = `
+exports[`Storyshots Primitives/List ol default 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1601,9 +3389,117 @@ exports[`Storyshots Primitives/List ol latin 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
+}
+
+.c2 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <ol
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      <li>
+        Item 1
+      </li>
+      <li>
+        Item 2
+      </li>
+      <li>
+        Item 3
+      </li>
+      <li>
+        Item 4
+      </li>
+    </ol>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Primitives/List ol latin 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
   list-style-type: lower-latin;
   display: inline-block;
   overflow-x: visible;
@@ -1652,38 +3548,53 @@ exports[`Storyshots Primitives/List ol latin 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <ol
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    <li>
-      Item 1
-    </li>
-    <li>
-      Item 2
-    </li>
-    <li>
-      Item 3
-    </li>
-    <li>
-      Item 4
-    </li>
-  </ol>
+    <ol
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      <li>
+        Item 1
+      </li>
+      <li>
+        Item 2
+      </li>
+      <li>
+        Item 3
+      </li>
+      <li>
+        Item 4
+      </li>
+    </ol>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/List ul circle 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1693,9 +3604,10 @@ exports[`Storyshots Primitives/List ul circle 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   list-style-type: circle;
   display: inline-block;
   overflow-x: visible;
@@ -1744,38 +3656,53 @@ exports[`Storyshots Primitives/List ul circle 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <ul
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    <li>
-      Item 1
-    </li>
-    <li>
-      Item 2
-    </li>
-    <li>
-      Item 3
-    </li>
-    <li>
-      Item 4
-    </li>
-  </ul>
+    <ul
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      <li>
+        Item 1
+      </li>
+      <li>
+        Item 2
+      </li>
+      <li>
+        Item 3
+      </li>
+      <li>
+        Item 4
+      </li>
+    </ul>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/List ul default 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1785,9 +3712,10 @@ exports[`Storyshots Primitives/List ul default 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -1835,38 +3763,53 @@ exports[`Storyshots Primitives/List ul default 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <ul
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    <li>
-      Item 1
-    </li>
-    <li>
-      Item 2
-    </li>
-    <li>
-      Item 3
-    </li>
-    <li>
-      Item 4
-    </li>
-  </ul>
+    <ul
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      <li>
+        Item 1
+      </li>
+      <li>
+        Item 2
+      </li>
+      <li>
+        Item 3
+      </li>
+      <li>
+        Item 4
+      </li>
+    </ul>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Option default 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1876,9 +3819,10 @@ exports[`Storyshots Primitives/Option default 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -1926,27 +3870,42 @@ exports[`Storyshots Primitives/Option default 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <option
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Option Name
-  </option>
+    <option
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Option Name
+    </option>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Select default 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -1956,9 +3915,10 @@ exports[`Storyshots Primitives/Select default 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -2006,46 +3966,61 @@ exports[`Storyshots Primitives/Select default 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <select
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    <option
-      className=""
+    <select
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
     >
-      Option 1
-    </option>
-    <option
-      className=""
-    >
-      Option 2
-    </option>
-    <option
-      className=""
-    >
-      Option 3
-    </option>
-    <option
-      className=""
-    >
-      Option 4
-    </option>
-  </select>
+      <option
+        className=""
+      >
+        Option 1
+      </option>
+      <option
+        className=""
+      >
+        Option 2
+      </option>
+      <option
+        className=""
+      >
+        Option 3
+      </option>
+      <option
+        className=""
+      >
+        Option 4
+      </option>
+    </select>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Text default 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2055,9 +4030,10 @@ exports[`Storyshots Primitives/Text default 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   margin-top: 16px;
   margin-bottom: 16px;
   min-width: 8px;
@@ -2109,20 +4085,27 @@ exports[`Storyshots Primitives/Text default 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
   <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Some text here
+    <div
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Some text here
+    </div>
   </div>
 </div>
 `;
@@ -2130,6 +4113,14 @@ exports[`Storyshots Primitives/Text default 1`] = `
 exports[`Storyshots Primitives/Text header 1 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2139,9 +4130,10 @@ exports[`Storyshots Primitives/Text header 1 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   margin-top: 16px;
   margin-bottom: 16px;
   min-width: 8px;
@@ -2193,27 +4185,42 @@ exports[`Storyshots Primitives/Text header 1 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <h1
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Header 1
-  </h1>
+    <h1
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Header 1
+    </h1>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Text header 2 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2223,9 +4230,10 @@ exports[`Storyshots Primitives/Text header 2 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   margin-top: 16px;
   margin-bottom: 16px;
   min-width: 8px;
@@ -2277,27 +4285,42 @@ exports[`Storyshots Primitives/Text header 2 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <h2
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Header 2
-  </h2>
+    <h2
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Header 2
+    </h2>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Text header 3 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2307,9 +4330,10 @@ exports[`Storyshots Primitives/Text header 3 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   margin-top: 16px;
   margin-bottom: 16px;
   min-width: 8px;
@@ -2361,27 +4385,42 @@ exports[`Storyshots Primitives/Text header 3 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <h3
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Header 3
-  </h3>
+    <h3
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Header 3
+    </h3>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Text header 4 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2391,9 +4430,10 @@ exports[`Storyshots Primitives/Text header 4 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   margin-top: 16px;
   margin-bottom: 16px;
   min-width: 8px;
@@ -2445,27 +4485,42 @@ exports[`Storyshots Primitives/Text header 4 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <h4
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Header 4
-  </h4>
+    <h4
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Header 4
+    </h4>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Text header 5 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2475,9 +4530,10 @@ exports[`Storyshots Primitives/Text header 5 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   margin-top: 16px;
   margin-bottom: 16px;
   min-width: 8px;
@@ -2529,27 +4585,42 @@ exports[`Storyshots Primitives/Text header 5 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <h5
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Header 5
-  </h5>
+    <h5
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Header 5
+    </h5>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Text header 6 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2559,9 +4630,10 @@ exports[`Storyshots Primitives/Text header 6 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   margin-top: 16px;
   margin-bottom: 16px;
   min-width: 8px;
@@ -2613,27 +4685,42 @@ exports[`Storyshots Primitives/Text header 6 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <h6
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Header 6
-  </h6>
+    <h6
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Header 6
+    </h6>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Primitives/Text paragraph 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2643,9 +4730,10 @@ exports[`Storyshots Primitives/Text paragraph 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   margin-top: 16px;
   margin-bottom: 16px;
   min-width: 8px;
@@ -2697,27 +4785,42 @@ exports[`Storyshots Primitives/Text paragraph 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <p
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Paragraph
-  </p>
+    <p
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Paragraph
+    </p>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Wysiwyg/Inline span 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2727,9 +4830,10 @@ exports[`Storyshots Wysiwyg/Inline span 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -2777,27 +4881,42 @@ exports[`Storyshots Wysiwyg/Inline span 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <span
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Some text here
-  </span>
+    <span
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Some text here
+    </span>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Wysiwyg/Italic em 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2807,9 +4926,10 @@ exports[`Storyshots Wysiwyg/Italic em 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -2857,27 +4977,42 @@ exports[`Storyshots Wysiwyg/Italic em 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <em
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Italic text here
-  </em>
+    <em
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Italic text here
+    </em>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Wysiwyg/Italic i 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2887,9 +5022,10 @@ exports[`Storyshots Wysiwyg/Italic i 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -2937,27 +5073,42 @@ exports[`Storyshots Wysiwyg/Italic i 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <i
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Italic text here
-  </i>
+    <i
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Italic text here
+    </i>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Wysiwyg/Span span 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -2967,9 +5118,10 @@ exports[`Storyshots Wysiwyg/Span span 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -3017,27 +5169,42 @@ exports[`Storyshots Wysiwyg/Span span 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <span
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Some text here
-  </span>
+    <span
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Some text here
+    </span>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Wysiwyg/Strike s 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -3047,9 +5214,10 @@ exports[`Storyshots Wysiwyg/Strike s 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -3097,27 +5265,42 @@ exports[`Storyshots Wysiwyg/Strike s 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <s
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Strike text here
-  </s>
+    <s
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Strike text here
+    </s>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Wysiwyg/Strike strike 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -3127,9 +5310,10 @@ exports[`Storyshots Wysiwyg/Strike strike 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -3177,27 +5361,42 @@ exports[`Storyshots Wysiwyg/Strike strike 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <strike
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Strike text here
-  </strike>
+    <strike
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Strike text here
+    </strike>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Wysiwyg/Strong b 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -3207,9 +5406,10 @@ exports[`Storyshots Wysiwyg/Strong b 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -3257,27 +5457,42 @@ exports[`Storyshots Wysiwyg/Strong b 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <b
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Bold text here
-  </b>
+    <b
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Bold text here
+    </b>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Wysiwyg/Strong strong 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -3287,9 +5502,10 @@ exports[`Storyshots Wysiwyg/Strong strong 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -3337,27 +5553,42 @@ exports[`Storyshots Wysiwyg/Strong strong 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <strong
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Strong text here
-  </strong>
+    <strong
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Strong text here
+    </strong>
+  </div>
 </div>
 `;
 
 exports[`Storyshots Wysiwyg/Underline u 1`] = `
 .c0 {
   margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
   color: #000000;
   background-color: #FFFFFF;
   box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
@@ -3367,9 +5598,10 @@ exports[`Storyshots Wysiwyg/Underline u 1`] = `
   -ms-user-select: none;
   user-select: none;
   position: relative;
+  display: block;
 }
 
-.c1 {
+.c2 {
   display: inline-block;
   overflow-x: visible;
   overflow-y: visible;
@@ -3417,20 +5649,27 @@ exports[`Storyshots Wysiwyg/Underline u 1`] = `
 
 <div
   className="c0"
-  color="#000000"
+  display="flex"
 >
-  <u
+  <div
     className="c1"
-    color=""
-    cursor="–"
-    display="inline-block"
-    filter="none"
-    height=""
-    opacity="1"
-    transform="none"
-    width=""
+    color="#000000"
+    display="block"
+    width="100%"
   >
-    Underline text here
-  </u>
+    <u
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      height=""
+      opacity="1"
+      transform="none"
+      width=""
+    >
+      Underline text here
+    </u>
+  </div>
 </div>
 `;
