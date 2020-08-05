@@ -41,11 +41,21 @@ npm run storybook
 - [x] [Box](https://github.com/quarkly/molecules/tree/master/src/primitives/box)
 - [x] [Button](https://github.com/quarkly/molecules/tree/master/src/primitives/button)
 - [x] [Line](https://github.com/quarkly/molecules/tree/master/src/primitives/line)
+- [x] [Icon](https://github.com/quarkly/molecules/tree/master/src/primitives/icon)
 - [x] [Image](https://github.com/quarkly/molecules/tree/master/src/primitives/image)
 - [x] [Input](https://github.com/quarkly/molecules/tree/master/src/primitives/input)
+- [x] [Link](https://github.com/quarkly/molecules/tree/master/src/primitives/link)
 - [x] [List](https://github.com/quarkly/molecules/tree/master/src/primitives/list)
 - [x] [Select](https://github.com/quarkly/molecules/tree/master/src/primitives/select)
 - [x] [Text](https://github.com/quarkly/molecules/tree/master/src/primitives/text)
+
+### Components
+- [x] [Formspree](https://github.com/quarkly/molecules/tree/master/src/components/formspree)
+- [x] [GoogleMap](https://github.com/quarkly/molecules/tree/master/src/components/googlemap)
+- [x] [Menu](https://github.com/quarkly/molecules/tree/master/src/components/menu)
+- [x] [Section](https://github.com/quarkly/molecules/tree/master/src/components/section)
+- [x] [SocialMedia](https://github.com/quarkly/molecules/tree/master/src/components/socialMedia)
+- [x] [Stack](https://github.com/quarkly/molecules/tree/master/src/components/stack)
 
 ### Wysiwyg
 
@@ -60,13 +70,16 @@ npm run storybook
 
 ## Soon
 
-- [ ] Icon
-- [ ] Link
-
-- [ ] Formspree
-- [ ] GoogleMap
-- [ ] Menu
-- [ ] Section
-- [ ] SocialMedia
-- [ ] Stack
-- [ ] StackItem
+- [ ] Accordion
+- [ ] Carousel
+- [ ] Video
+- [ ] Drawer
+- [ ] Gallery
+- [ ] Modal
+- [ ] Lightbox
+- [ ] Tabs
+- [ ] Card
+- [ ] Table
+- [ ] Tooltip
+- [ ] Inputs: checkbox, radio, range, select, file, date
+- [ ] Card
