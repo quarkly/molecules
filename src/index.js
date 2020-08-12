@@ -21,6 +21,7 @@ export { default as Formspree } from './components/formspree';
 export { default as GoogleMap } from './components/googlemap';
 export { default as Menu } from './components/menu';
 export { default as SocialMedia } from './components/socialMedia';
+export { default as Audio } from './components/audio';
 export { default as Video } from './components/video';
 
 // Inline wysiwyg components
