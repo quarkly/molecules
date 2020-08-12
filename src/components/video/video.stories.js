@@ -15,7 +15,7 @@ stories.addDecorator(withKnobs);
 stories.add('default', () => (
 	<Theme>
 		<Wrapper>
-			<Video {...getKnobs(defaults)}>Default Video</Video>
+			<Video {...getKnobs(defaults)} />
 		</Wrapper>
 	</Theme>
 ));
