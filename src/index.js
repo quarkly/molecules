@@ -23,6 +23,7 @@ export { default as Menu } from './components/menu';
 export { default as SocialMedia } from './components/socialMedia';
 export { default as Audio } from './components/audio';
 export { default as Video } from './components/video';
+export { default as Picture } from './components/picture';
 
 // Inline wysiwyg components
 export { default as Inline } from './wysiwyg/inline';
