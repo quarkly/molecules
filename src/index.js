@@ -25,6 +25,7 @@ export { default as Audio } from './components/audio';
 export { default as Video } from './components/video';
 export { default as Picture } from './components/picture';
 export { default as Source } from './components/source';
+export { default as Track } from './components/track';
 
 // Inline wysiwyg components
 export { default as Inline } from './wysiwyg/inline';
