@@ -1,5 +1,159 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Components/Audio default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      align-items="–"
+      background=""
+      background-attachment="–"
+      background-clip="–"
+      background-image="url()"
+      background-position="none"
+      background-repeat="–"
+      background-size="none"
+      blend-mode="–"
+      border-color="rgb(118,118,118)"
+      border-radius=""
+      border-style="none"
+      border-width="0px"
+      bottom=""
+      box-shadow="none"
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      flex-direction="row"
+      flex-wrap="nowrap"
+      font=""
+      font-family=""
+      font-size=""
+      font-style="–"
+      font-variant="–"
+      font-weight=""
+      height=""
+      justify-content="–"
+      left=""
+      letter-spacing=""
+      line-height=""
+      margin-bottom=""
+      margin-left=""
+      margin-right=""
+      margin-top=""
+      max-height=""
+      max-width=""
+      min-height=""
+      min-width=""
+      opacity="1"
+      overflow-x="visible"
+      overflow-y="visible"
+      padding-bottom=""
+      padding-left=""
+      padding-right=""
+      padding-top=""
+      position="–"
+      right=""
+      text-align="left"
+      text-decoration=""
+      text-shadow="none"
+      text-transform=""
+      top=""
+      transform="none"
+      transition="all 0s ease 0s"
+      white-space="–"
+      width=""
+      z-index="auto"
+    >
+      <audio
+        autoPlay={false}
+        controls={true}
+        height="auto"
+        loop={false}
+        muted={false}
+        width="100%"
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Components/Formspree default 1`] = `
 .c0 {
   margin: 16px 8px;
@@ -352,6 +506,156 @@ exports[`Storyshots Components/Menu default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Components/Picture default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      align-items="–"
+      background=""
+      background-attachment="–"
+      background-clip="–"
+      background-image="url()"
+      background-position="none"
+      background-repeat="–"
+      background-size="none"
+      blend-mode="–"
+      border-color="rgb(118,118,118)"
+      border-radius=""
+      border-style="none"
+      border-width="0px"
+      bottom=""
+      box-shadow="none"
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      flex-direction="row"
+      flex-wrap="nowrap"
+      font=""
+      font-family=""
+      font-size=""
+      font-style="–"
+      font-variant="–"
+      font-weight=""
+      height=""
+      justify-content="–"
+      left=""
+      letter-spacing=""
+      line-height=""
+      margin-bottom=""
+      margin-left=""
+      margin-right=""
+      margin-top=""
+      max-height=""
+      max-width=""
+      min-height=""
+      min-width=""
+      opacity="1"
+      overflow-x="visible"
+      overflow-y="visible"
+      padding-bottom=""
+      padding-left=""
+      padding-right=""
+      padding-top=""
+      position="–"
+      right=""
+      text-align="left"
+      text-decoration=""
+      text-shadow="none"
+      text-transform=""
+      top=""
+      transform="none"
+      transition="all 0s ease 0s"
+      white-space="–"
+      width=""
+      z-index="auto"
+    >
+      <picture
+        height="auto"
+        width="100%"
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Components/Section default 1`] = `
 .c0 {
   margin: 16px 8px;
@@ -529,6 +833,153 @@ exports[`Storyshots Components/SocialMedia default 1`] = `
         Quarkly.io
       </a>
     </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Source default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <source
+      align-items="–"
+      background=""
+      background-attachment="–"
+      background-clip="–"
+      background-image="url()"
+      background-position="none"
+      background-repeat="–"
+      background-size="none"
+      blend-mode="–"
+      border-color="rgb(118,118,118)"
+      border-radius=""
+      border-style="none"
+      border-width="0px"
+      bottom=""
+      box-shadow="none"
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      flex-direction="row"
+      flex-wrap="nowrap"
+      font=""
+      font-family=""
+      font-size=""
+      font-style="–"
+      font-variant="–"
+      font-weight=""
+      height=""
+      justify-content="–"
+      left=""
+      letter-spacing=""
+      line-height=""
+      margin-bottom=""
+      margin-left=""
+      margin-right=""
+      margin-top=""
+      max-height=""
+      max-width=""
+      media="all"
+      min-height=""
+      min-width=""
+      opacity="1"
+      overflow-x="visible"
+      overflow-y="visible"
+      padding-bottom=""
+      padding-left=""
+      padding-right=""
+      padding-top=""
+      position="–"
+      right=""
+      text-align="left"
+      text-decoration=""
+      text-shadow="none"
+      text-transform=""
+      top=""
+      transform="none"
+      transition="all 0s ease 0s"
+      type="–"
+      white-space="–"
+      width=""
+      z-index="auto"
+    />
   </div>
 </div>
 `;
@@ -1404,6 +1855,306 @@ exports[`Storyshots Components/StackItem default 1`] = `
           StackItem with Text
         </div>
       </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Track default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <track
+      align-items="–"
+      background=""
+      background-attachment="–"
+      background-clip="–"
+      background-image="url()"
+      background-position="none"
+      background-repeat="–"
+      background-size="none"
+      blend-mode="–"
+      border-color="rgb(118,118,118)"
+      border-radius=""
+      border-style="none"
+      border-width="0px"
+      bottom=""
+      box-shadow="none"
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      flex-direction="row"
+      flex-wrap="nowrap"
+      font=""
+      font-family=""
+      font-size=""
+      font-style="–"
+      font-variant="–"
+      font-weight=""
+      height=""
+      justify-content="–"
+      kind="subtitles"
+      left=""
+      letter-spacing=""
+      line-height=""
+      margin-bottom=""
+      margin-left=""
+      margin-right=""
+      margin-top=""
+      max-height=""
+      max-width=""
+      min-height=""
+      min-width=""
+      opacity="1"
+      overflow-x="visible"
+      overflow-y="visible"
+      padding-bottom=""
+      padding-left=""
+      padding-right=""
+      padding-top=""
+      position="–"
+      right=""
+      text-align="left"
+      text-decoration=""
+      text-shadow="none"
+      text-transform=""
+      top=""
+      transform="none"
+      transition="all 0s ease 0s"
+      white-space="–"
+      width=""
+      z-index="auto"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Video default 1`] = `
+.c0 {
+  margin: 16px 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 100%;
+  color: #000000;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 48px 0 rgba(0,0,0,.2);
+  font-family: sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  display: block;
+}
+
+.c2 {
+  display: inline-block;
+  overflow-x: visible;
+  overflow-y: visible;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: –;
+  -webkit-box-align: –;
+  -ms-flex-align: –;
+  align-items: –;
+  -webkit-box-pack: –;
+  -webkit-justify-content: –;
+  -ms-flex-pack: –;
+  justify-content: –;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  font-style: –;
+  font-variant: –;
+  white-space: –;
+  text-align: left;
+  background-image: url();
+  background-position: none;
+  background-size: none;
+  background-repeat: –;
+  background-attachment: –;
+  background-clip: –;
+  border-width: 0px;
+  border-style: none;
+  border-color: rgb(118,118,118);
+  position: –;
+  z-index: auto;
+  opacity: 1;
+  cursor: –;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-filter: none;
+  filter: none;
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    color="#000000"
+    display="block"
+    width="100%"
+  >
+    <div
+      align-items="–"
+      background=""
+      background-attachment="–"
+      background-clip="–"
+      background-image="url()"
+      background-position="none"
+      background-repeat="–"
+      background-size="none"
+      blend-mode="–"
+      border-color="rgb(118,118,118)"
+      border-radius=""
+      border-style="none"
+      border-width="0px"
+      bottom=""
+      box-shadow="none"
+      className="c2"
+      color=""
+      cursor="–"
+      display="inline-block"
+      filter="none"
+      flex-direction="row"
+      flex-wrap="nowrap"
+      font=""
+      font-family=""
+      font-size=""
+      font-style="–"
+      font-variant="–"
+      font-weight=""
+      height=""
+      justify-content="–"
+      left=""
+      letter-spacing=""
+      line-height=""
+      margin-bottom=""
+      margin-left=""
+      margin-right=""
+      margin-top=""
+      max-height=""
+      max-width=""
+      min-height=""
+      min-width=""
+      opacity="1"
+      overflow-x="visible"
+      overflow-y="visible"
+      padding-bottom=""
+      padding-left=""
+      padding-right=""
+      padding-top=""
+      position="–"
+      right=""
+      text-align="left"
+      text-decoration=""
+      text-shadow="none"
+      text-transform=""
+      top=""
+      transform="none"
+      transition="all 0s ease 0s"
+      white-space="–"
+      width=""
+      z-index="auto"
+    >
+      <video
+        autoPlay={false}
+        controls={true}
+        height="auto"
+        loop={false}
+        muted={false}
+        width="100%"
+      />
     </div>
   </div>
 </div>
